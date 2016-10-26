@@ -3,7 +3,7 @@
 
 .section .data
 	output: 
-		.ascii "hello,world\n" 
+		.ascii "hello world\n" 
 
 .section .text  
 .globl _main
