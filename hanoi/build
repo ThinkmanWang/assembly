@@ -1,0 +1,2 @@
+as  --32  -o hanoi.o hanoi.s
+ld -m elf_i386 -dynamic-linker /lib/ld-linux.so.2 -o hanoi -lc hanoi.o
